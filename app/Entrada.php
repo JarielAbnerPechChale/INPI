@@ -11,7 +11,7 @@ class Entrada extends Model
     //Definimos la llave primaria
     protected $primaryKey='id_entrada';
 
-    protected $with=['x'];
+    protected $with=['proveedor'];
     //Definimos las columnas
     public $incrementing=true;
     //por defecto Laravel pide de dos métodos create y update, como no los
@@ -26,7 +26,7 @@ class Entrada extends Model
     ];
 
 
-    public function x(){
+    public function proveedor(){
         return $this->belongsTo(Proveedor::class,'id_proveedor','id_proveedor');
     }
 }

@@ -251,6 +251,14 @@
               </p>
             </a>
           </li>
+           <li class="nav-item">
+            <a href="alma" class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>
+                Almacen de Insumos
+              </p>
+            </a>
+          </li>
 
           <li class="nav-item">
             <a href="#" class="nav-link">

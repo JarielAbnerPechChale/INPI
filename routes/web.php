@@ -28,8 +28,10 @@ Route::view('perfilEd','login.usuario');
 Route::view('/','login.login');
 Route::view('provee','proveedor');
 Route::view('pro','proveedores.proveedores');
+       //Insumos
 Route::view('entrada','insumos.entradainsumo');
 Route::view('salida','insumos.salidainsumo');
+Route::view('alma','insumos.almacen');
 
 
 
