@@ -126,7 +126,7 @@ var urlEscuelas = ruta + '/apiEscuela';
 				this.cruzamiento='';
 				this.id_escuela='';
 				this.getAlumnos();
-				$('#add_alumnos').modal('hide');
+				$('#add_alumnos').modal('hide');  
 			});
 		},
 		editAlumno:function(id){

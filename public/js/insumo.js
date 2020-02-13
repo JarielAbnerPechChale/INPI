@@ -9,9 +9,19 @@ new Vue({
 	el:'#insumos',
 		created:function(){
 			this.getInsumos();
+			this.getEntradas();
+			this.Salidas();
+			this.
+			this.getProveedores();
+			this.getTipo();
 		},
 	data:{
 		insumos:[],
+		nombre:'',
+		cantidad:'',
+		precio:'',
+
+
 
 	},
 	methods:{

@@ -11,16 +11,16 @@
 		<br>
 
 		<a href="#"><button class="btn btn-success btn-lg" style="float: right;">Agregar Insumos</button></a>
+	</div>
+	</div>
 		
-		</div>
-	</div> {{-- fin del vue --}}
 @endsection
 @push('scripts')
 		<script src="js/vue.min.js"></script>
 	<script src="js/vue-resource.js"></script>
 	<script src="js/jquery-3.4.1.min.js"></script>
-	<!-- <script src="js/"></script>
- -->
+	<script src="js/insumos.js"></script>
+ 
 @endpush
 
 <input type="hidden" name="route" value="{{url('/')}}">

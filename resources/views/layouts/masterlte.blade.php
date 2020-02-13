@@ -64,7 +64,7 @@
     </form> -->
 
     <!-- Right navbar links -->
-    <ul class="navbar-nav ml-auto">
+  <!--   <ul class="navbar-nav ml-auto"> -->
       <!-- Messages Dropdown Menu -->
       <!-- Mensajes inicia -->
       <!-- <li class="nav-item dropdown">
@@ -243,6 +243,15 @@
           </li> -->
           <!-- Dashboard deslizable termina      -->
 
+           <li class="nav-item">
+            <a href="{{url('coci')}}" class="nav-link">
+              <i class="nav-icon fas fa-drumstick-bite"></i>
+              <p>
+                Cocineros
+              </p>
+            </a>
+          </li>
+
           <li class="nav-item">
             <a href="{{url('provee')}}" class="nav-link">
               <i class="nav-icon fas fa-book"></i>
@@ -251,9 +260,19 @@
               </p>
             </a>
           </li>
-           <li class="nav-item">
+
+            <li class="nav-item">
+            <a class="nav-link">
+              <i class="nav-icon fas fa-fish"></i>
+              <p>
+                Insumos
+                 <i class="fas fa-angle-left right"></i>
+              </p>
+              <ul class="nav nav-treeview">
+             </a>
+              <li class="nav-item">
             <a href="alma" class="nav-link">
-              <i class="nav-icon fas fa-file"></i>
+              <i class="nav-icon fas fa-warehouse"></i>
               <p>
                 Almacen de Insumos
               </p>
@@ -262,7 +281,7 @@
 
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-file"></i>
+              <i class="nav-icon fas fa-history"></i>
               <p>
                 Historial
               </p>
@@ -283,6 +302,12 @@
                 Salida de Insumos
               </p>
             </a>
+            </ul>
+            </a>
+          </li>
+
+
+          
            <!--  <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="pages/layout/top-nav.html" class="nav-link">
@@ -432,7 +457,7 @@
           </li> -->
 
 
-          <!-- <li class="nav-item has-treeview">
+         <!--  <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-edit"></i>
               <p>

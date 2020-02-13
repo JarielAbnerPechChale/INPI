@@ -96,6 +96,10 @@ new Vue({
 			this.$http.delete(urlProveedores + '/' + id)
 			.then(function(json){
 				this.getProveedores();
+			}).catch(function(jariel){
+				this.getProveedores();
+				console.log(jariel);
+				alert("Verifica que l proveedor no este en uso con los productos");
 			});
 			}
 		},
